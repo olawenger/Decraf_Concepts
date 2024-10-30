@@ -1,0 +1,12 @@
+@use "../../../scss/style.scss";
+@use "../../../scss/utils/functions" as fn;
+@use '../../../scss/utils/mixins' as mixins;
+
+
+.responsive{
+@include mixins.responsive;
+}
+.img-card{
+  width: fn.rem(137);
+  height: fn.rem(137);
+}

@@ -1,0 +1,14 @@
+@use '../../../scss/utils/mixins' as mixins;
+
+.contact-background{
+    background-image: url(../../../assets/formBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+
+    .responsive{
+        @include mixins.responsive;
+    }
+}
+

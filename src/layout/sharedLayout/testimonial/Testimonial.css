@@ -1,0 +1,8 @@
+.responsive {
+  max-width: 1400px;
+  margin: auto;
+}
+.responsive .profile-img {
+  width: fn(79);
+  height: fn(79);
+}/*# sourceMappingURL=Testimonial.css.map */

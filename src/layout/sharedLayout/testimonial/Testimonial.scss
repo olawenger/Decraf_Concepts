@@ -1,0 +1,11 @@
+@use '../../../scss/utils/functions' as fn;
+@use '../../../scss/utils/mixins' as mixins;
+
+
+.responsive{
+    @include mixins.responsive;
+    .profile-img{
+        width: fn(79);
+        height: fn(79);
+    }
+}

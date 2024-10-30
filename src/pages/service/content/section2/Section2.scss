@@ -1,0 +1,17 @@
+@use '../../../../scss/style.scss';
+@use '../../../../scss/global/colors' as color;
+@use '../../../../scss/utils/mixins' as mixins;
+
+.section-two{
+    background-color: color.$red-200;
+    background-image: url('../../../../assets/service-backdrop.png');
+    background-repeat: no-repeat;
+    background-position: 0% 32%;
+    .responsive{
+      @include mixins.responsive
+    }
+    .border-img{
+        width: 100%;
+        max-width: 495px ;
+    }
+}

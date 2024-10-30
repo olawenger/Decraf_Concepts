@@ -1,0 +1,19 @@
+@use '../../scss/utils/functions'as fn;
+@use '../../scss/utils/mixins'as mixins;
+
+
+.responsive{
+    @include mixins.responsive;
+}
+
+.social{
+    width: fn.rem(25);
+    height: fn.rem(25);
+}
+
+@media(width < fn.rem(700)){
+    .social{
+        width: fn.rem(40);
+        height: fn.rem(40);
+    }
+}

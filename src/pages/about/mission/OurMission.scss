@@ -1,0 +1,10 @@
+@use '../../../scss/global/colors'as colors;
+@use '../../../scss/utils/mixins' as mixins;
+
+
+.responsive{
+@include mixins.resonsive
+}
+.mission{
+    background-color: colors.$red-300;
+}

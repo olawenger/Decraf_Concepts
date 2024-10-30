@@ -1,0 +1,9 @@
+@use '../../../../scss/utils/mixins' as mixins;
+
+.responsive{
+    @include mixins.responsive;
+    .hero-positioning{
+        position: relative;
+    }
+    
+}

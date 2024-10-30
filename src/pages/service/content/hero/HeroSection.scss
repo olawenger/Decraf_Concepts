@@ -1,0 +1,19 @@
+@use "../../../../scss/style.scss";
+@use "../../../../scss/utils/functions" as fn;
+
+.service-bg {
+  background-image: url(../../../../assets/ds.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  height: auto;
+  min-height: fn.rem(300);
+  background-position: center;
+}
+
+@media(width > 700px){
+  .service-bg{
+    min-height: fn.rem(450);
+    height: auto;
+  }
+}

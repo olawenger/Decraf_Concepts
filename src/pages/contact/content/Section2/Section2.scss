@@ -1,0 +1,8 @@
+
+@use '../../../../scss/style.scss';
+@use '../../../../scss/global/colors' as color;
+@use '../../../../scss/utils/mixins' as mixins;
+
+    .responsive{
+      @include mixins.responsive
+    }

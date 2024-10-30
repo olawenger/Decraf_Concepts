@@ -1,0 +1,11 @@
+.contact-background {
+  background-image: url(../../../assets/formBackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: auto;
+}
+.contact-background .responsive {
+  max-width: 1400px;
+  margin: auto;
+}/*# sourceMappingURL=ContactUs.css.map */
