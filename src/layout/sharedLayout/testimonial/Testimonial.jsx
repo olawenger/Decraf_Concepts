@@ -14,12 +14,12 @@ const Testimonial = () => {
             <img src={apostropheR} className=' absolute top-7 right-0 px-3' alt="" />
             <img src={apostropheL} alt="" className='absolute top-7 left-0 px-3'  />
             <p className=" px-3 text-base lg:text-lg font-medium ">
-              Lorem ipsum dolor sit amet consectetur. Sed iaculis et sapien
+              {/* Lorem ipsum dolor sit amet consectetur. Sed iaculis et sapien
               neque. Lectus felis eu adipiscing dolor ut eget iaculis mauris
               nec. Purus rhoncus vel id tortor nulla dictum duis at vestibulum.
               Id bibendum dictum nunc et volutpat a tellus ut nascetur. Volutpat
               nunc porta vestibulum ipsum et enim ac pharetra pellentesque.
-              Vivamus diam enim commodoi.
+              Vivamus diam enim commodoi. */}
             </p>
           
             <div className='flex justify-center items-center gap-4 py-5'>
@@ -36,12 +36,12 @@ const Testimonial = () => {
             <img src={apostropheR} className=' absolute top-7 right-0 px-3' alt="" />
             <img src={apostropheL} alt="" className='absolute top-7 left-0 px-3'  />
             <p className="text-base lg:text-lg px-3 font-medium ">
-              Lorem ipsum dolor sit amet consectetur. Sed iaculis et sapien
+              {/* Lorem ipsum dolor sit amet consectetur. Sed iaculis et sapien
               neque. Lectus felis eu adipiscing dolor ut eget iaculis mauris
               nec. Purus rhoncus vel id tortor nulla dictum duis at vestibulum.
               Id bibendum dictum nunc et volutpat a tellus ut nascetur. Volutpat
               nunc porta vestibulum ipsum et enim ac pharetra pellentesque.
-              Vivamus diam enim commodo.
+              Vivamus diam enim commodo. */}
             </p>
           
             <div className='flex justify-center items-center gap-4 py-5'>

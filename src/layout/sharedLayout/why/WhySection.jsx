@@ -10,7 +10,7 @@ const WhySection = () => {
         <div className="py-3">
           <h4 className="text-center text-white-100 medium-text">WHY DECRAFT ?</h4>
           <h1 className="text-center text-white-100 large-text py-3 w-full lg:w-3/4 mx-auto">
-            Lorem ipsum dolor sit amet consectetur. Lobortis porttitor
+            {/* Lorem ipsum dolor sit amet consectetur. Lobortis porttitor */}
           </h1>
         </div>
         <div className="py-5 grid grid-cols-1 gap-5 lg:grid-cols-3 lg:gap-10">
@@ -20,10 +20,10 @@ const WhySection = () => {
             </div>
             <h1 className="text-white-100 medium-text">Premium Service</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Lobortis porttitor
+              {/* Lorem ipsum dolor sit amet consectetur. Lobortis porttitor
               condimentum fusce nisl. Ultricies cursus amet ut porttitor
               fringilla viverra diam suspendisse. Volutpat velit adipiscing nunc
-              ut fermentum erat egestas sed. Arcu faucibus sit eu in neque.
+              ut fermentum erat egestas sed. Arcu faucibus sit eu in neque. */}
             </p>
           </div>
 
@@ -33,10 +33,10 @@ const WhySection = () => {
             </div>
             <h1 className="text-white-100 medium-text">Experienced Team</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Lobortis porttitor
+              {/* Lorem ipsum dolor sit amet consectetur. Lobortis porttitor
               condimentum fusce nisl. Ultricies cursus amet ut porttitor
               fringilla viverra diam suspendisse. Volutpat velit adipiscing nunc
-              ut fermentum erat egestas sed. Arcu faucibus sit eu in neque.
+              ut fermentum erat egestas sed. Arcu faucibus sit eu in neque. */}
             </p>
           </div>
           <div className="flex flex-col gap-4 justify-center lg:justify-start items-center lg:items-start">
@@ -45,10 +45,10 @@ const WhySection = () => {
             </div>
             <h1 className="text-white-100 medium-text">Affordable Pricing</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Lobortis porttitor
+              {/* Lorem ipsum dolor sit amet consectetur. Lobortis porttitor
               condimentum fusce nisl. Ultricies cursus amet ut porttitor
               fringilla viverra diam suspendisse. Volutpat velit adipiscing nunc
-              ut fermentum erat egestas sed. Arcu faucibus sit eu in neque.
+              ut fermentum erat egestas sed. Arcu faucibus sit eu in neque. */}
             </p>
           </div>
         </div>

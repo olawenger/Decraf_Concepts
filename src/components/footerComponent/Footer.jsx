@@ -27,7 +27,7 @@ const Footer = () => {
             <img className="" src={decraf} alt="" />
           </Link>
           <p className=" text-center lg:text-start md:w-3/5 mx-auto lg:w-full ">
-           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eligendi, sit labore debitis omnis harum.
+           {/* Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus eligendi, sit labore debitis omnis harum. */}
           </p>
           <ContactBtn />
         </div>
