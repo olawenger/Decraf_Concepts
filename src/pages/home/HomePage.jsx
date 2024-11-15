@@ -17,8 +17,8 @@ const HomePage = () => {
       <Section2/>
       <Section3/>
       <SwiperCarousel/>
-      <WhySection/>
-      <Testimonial/>
+      {/* <WhySection/>
+      <Testimonial/> */}
       <ContactUs/>
 
     </div>

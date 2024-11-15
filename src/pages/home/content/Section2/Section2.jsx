@@ -23,7 +23,7 @@ const Section2 = () => {
               <div className='bg-white-100 shadow-2xl p-7 z-20 xl:absolute lg:-top-32 xl:-top-36 xl:-left-12 '>
                     <h4 className='py-4 text-center lg:text-start medium-text'>OUR VISION</h4>
                     {/* <h1 className='text-4xl pb-4 text-center lg:text-start text-orange-600'>Lorem ipsum dolor sit amet consectetur. Cras lorem.</h1> */}
-                    <p className='text-center lg:text-start'>To lead the construction industry in Nigeria by delivering innovative, quality, and eco-friendly solutions, ensuring exceptional value and excellence in every project we undertake. </p>
+                    <p className='text-center lg:text-start'>Is to lead the construction industry in Nigeria by delivering innovative, quality, and eco-friendly solutions, ensuring exceptional value and excellence in every project we undertake. </p>
                     <div className='py-7 flex justify-center items-center lg:justify-start lg:items-start'>
                         {/* <ContactBtn/> */}
                     </div>

@@ -88,14 +88,17 @@ const Section2 = ({ setOpen }) => {
           </div>
           <div className="flex flex-col gap-7">
             <div className="flex items-center gap-4">
-              <div>
+              <div className="self-start">
                 <img src={loc} alt="" />
               </div>
               <span>
                 <h5 className="text-black-100">Location</h5>
+                <h2 className="text-black-500 medium-text py-3">
+                Abuja Address: House B58B Saraha Home Security Estate, Gwarimpa.
+                </h2>
                 <h2 className="text-black-500 medium-text">
-                  1, Iguodala street - Abesan Estate, Akinyele <br /> Bus
-                  Stop, Ipaja, Lagos
+                Lagos Address:<br /> 1 Iguodala Street, Off Abosede Aro avenue, Abesan
+                Estate, Ipaja, Lagos.
                 </h2>
               </span>
             </div>
