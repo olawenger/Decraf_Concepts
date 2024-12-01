@@ -2,6 +2,9 @@
 export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
+        fontFamily: {
+            poppins: ['Poppins', 'system-ui', 'sans-serif'],
+          },
         //color settings
         colors: {
             red: {

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './FadedCarousel.scss'
 import img1 from '../../../assets/construction7.png'
-import istockphoto1 from '../../../assets/istockphoto1.jpg'
+import istockphoto1 from '../../../assets/construct1.jpg'
 const FadedCarousel = () => {
   const [index, setIndex] = useState(0);
   const images = [istockphoto1]; // Add your image URLs here
@@ -20,6 +20,7 @@ const FadedCarousel = () => {
       className="carousel-container"
      
     >
+    <div className="w-full h-full absolute top-0 left-0 bg-black-500 opacity-40 z-10"></div>
     
       <div
         className="background-image"
@@ -27,6 +28,7 @@ const FadedCarousel = () => {
           position: 'absolute',
           top: 0,
           left: 0,
+          zIndex: 0,
           width: '100%',
           height: '100%',
           backgroundImage: `url(${imageUrl})`,

@@ -13,8 +13,8 @@ const AboutPage = () => {
       <OurMission/>
       <WhySection />
       <SwiperCarousel/>
-      <MeetTeam />
-      <Testimonial />
+      {/* <MeetTeam />
+      <Testimonial /> */}
       <ContactUs />
     </div>
   );

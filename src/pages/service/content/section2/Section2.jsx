@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import s1 from "../../../../assets/service_img1.png";
 import s2 from "../../../../assets/service_img2.png";
 import s3 from "../../../../assets/service_img3.png";
@@ -121,20 +122,48 @@ const ServiceItem = ({ text }) => (
   </div>
 );
 
-const ServiceSection = ({ title, image, items }) => (
-  <div className="flex flex-col lg:flex-row gap-5 items-center mb-10">
-    <img src={image} alt={title} className="border-img border-8 border-white-100" />
-    <div className="grid grid-cols-1 gap-4">
-      <h4 className="medium-text font-bold text-center lg:text-start">{title}</h4>
-      {items.map((item, index) => (
-        <ServiceItem key={index} text={item} />
-      ))}
-      <div className="flex justify-center lg:justify-start">
-        <ContactBtn />
+const ServiceSection = ({ title, image, items }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <div className="border-b border-gray-200 py-4">
+      {/* Header with toggle functionality */}
+      <div
+        className="flex justify-between items-center cursor-pointer"
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <h4 className="medium-text font-bold">{title}</h4>
+        <button
+          className={`transform transition-transform ${
+            isOpen ? "rotate-180" : "rotate-0"
+          }`}
+        >
+          ▼
+        </button>
       </div>
+
+      {/* Content that expands/collapses */}
+      {isOpen && (
+        <div className="mt-4 flex items-center gap-7">
+          <img
+            src={image}
+            alt={title}
+            className="border-img border-8 border-white-100 mb-4"
+          />
+          <div>
+          {items.map((item, index) => (
+            <ServiceItem key={index} text={item} />
+          ))}
+          <div className="flex justify-start mt-4">
+            <ContactBtn />
+          </div>
+          </div>
+          
+        </div>
+      )}
     </div>
-  </div>
-);
+  );
+};
 
 const Section2 = () => {
   return (
@@ -143,7 +172,7 @@ const Section2 = () => {
         <h1 className="text-center large-text w-full lg:w-1/2 pb-9 mx-auto">
           Explore Our Services At <br /> Decraft
         </h1>
-        <div className="grid grid-cols-1 gap-20">
+        <div className="grid grid-cols-1 gap-6">
           {serviceData.map((service, index) => (
             <ServiceSection
               key={index}

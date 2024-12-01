@@ -6,6 +6,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer base {
+  html {
+    @apply font-poppins;
+  }
+}
+
 @font-face {
   font-family: "BarlowSemiCondensed-Regular";
   src: local("BarlowSemiCondensed-Regular"), url("../fonts/BarlowSemiCondensed-Regular.ttf") format("truetype");
@@ -17,6 +24,7 @@
   src: local("BricolageGrotesque-SemiBold"), url("../fonts/BricolageGrotesque-SemiBold.ttf") format("truetype");
   font-weight: 700;
 }
+
 
 
 
