@@ -10,7 +10,7 @@ const OurMission = () => {
   return (
     <div className="responsive">
       <div className=" grid grid-cols-1 lg:grid-cols-2 gap-7 lg:gap-20 items-center w-11/12 mx-auto mission py-16 ">
-        <img src={elect2} className=" block lg:hidden w-full" alt="" />
+        {/* <img src={elect2} className=" block  w-full" alt="" /> */}
         <div className="flex flex-row  gap-10 items-center justify-center ">
           {/* <div>
             <img
@@ -20,7 +20,7 @@ const OurMission = () => {
             />
           </div> */}
           <div className="flex flex-col gap-10">
-            <img className="hidden lg:block rounded-md" src={cman} alt="" />
+            <img className=" rounded-md" src={cman} alt="" />
             {/* <img className="hidden lg:block rounded-md" src={elect3} alt="" /> */}
           </div>
         </div>
