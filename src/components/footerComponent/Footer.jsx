@@ -73,7 +73,7 @@ const Footer = () => {
                 Estate, Ipaja, Lagos.
               </p>
               <div className="flex gap-4">
-                <p className="text-start">08030816332</p>
+                <p className="text-start">08030427268</p>
                 <p className="text-start">09092662911</p>
               </div>
             </div>

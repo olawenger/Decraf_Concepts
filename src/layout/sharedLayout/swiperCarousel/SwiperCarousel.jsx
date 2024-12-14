@@ -6,13 +6,16 @@ import { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Pagination, Autoplay } from "swiper/modules";
-import slide1 from "../../../assets/slide1.png";
-import slide2 from "../../../assets/slide2.png";
-import slidethree from "../../../assets/slide3.png";
-import imgnew1 from '../../../assets/imgnew1.jpg'
-import imgnew4 from '../../../assets/imgnew4.jpg'
-import imgnew3 from '../../../assets/imgnew3.jpg'
-import imgnew2 from '../../../assets/imgnew2.jpg'
+// import slide1 from "../../../assets/slide1.png";
+// import slide2 from "../../../assets/slide2.png";
+// import slidethree from "../../../assets/slide3.png";
+import imgnew1 from '../../../assets/kitchen.png'
+// import imgnew4 from '../../../assets/imgnew4.jpg'
+import imgnew3 from '../../../assets/TERRACE.jpg'
+import imgnew2 from '../../../assets/house.jpg'
+import imgnew4 from '../../../assets/court.jpg'
+import imgnew5 from '../../../assets/Response.jpg'
+import imgnew6 from '../../../assets/manga_5.jpg'
 import panorama from "../../../assets/paranoma.png";
 
 
@@ -55,23 +58,23 @@ breakpoints={{
         className="mySwiper"
       
       >
-        <SwiperSlide>
-          <img src={imgnew1} alt="" />
+        <SwiperSlide className="h-[300px]">
+          <img src={imgnew1} alt="" className="" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={imgnew2} alt="" />
+        <SwiperSlide className="h-[300px]">
+          <img src={imgnew2} alt="" className="" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={imgnew3} alt="" />
+        <SwiperSlide className="h-[300px]">
+          <img src={imgnew3} alt="" className="" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={imgnew1} alt="" />
+        <SwiperSlide className="h-[300px]">
+          <img src={imgnew4} alt="" className=""/>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={imgnew2} alt="" />
+        <SwiperSlide className="h-[300px]">
+          <img src={imgnew5} alt="" className=""/>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={imgnew3} alt="" />
+        <SwiperSlide className="h-[300px]">
+          <img src={imgnew6} alt="" className=""/>
         </SwiperSlide>
       </Swiper>
     </div>

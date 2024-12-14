@@ -1,6 +1,6 @@
 import ContactBtn from '../../../../components/ContactBtn/ContactBtn'
 import './Section2.scss'
-import engineer from '../../../../assets/engineer.png'
+import engineer from '../../../../assets/BOF.jpg'
 const Section2 = () => {
   return (
     <div className='bg-white-100 py-6 xl:pb-10 xl:pt-5 relative'>

@@ -5,9 +5,9 @@
 
 .section-body{
   background-color: color.$red-300;
-  background-image: url('../../../../assets/naked-wire.png'), url('../../../../assets/riple-effect.png');
+  background-image: url('../../../../assets/riple-effect.png');
   background-repeat: no-repeat;
-  background-position: 0% 10%, right top;
+  background-position: right top;
   .responsive{
     @include mixins.responsive;
 

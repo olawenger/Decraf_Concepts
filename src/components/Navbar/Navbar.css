@@ -15,7 +15,7 @@ nav a::after {
 }
 
 nav a.active {
-  color: #fd8336;
+  color: #fb923c;
 }
 
 nav a:hover::after {
@@ -24,7 +24,7 @@ nav a:hover::after {
 
 nav a.active::after {
   width: 100%;
-  background-color: #fa863e !important;
+  background-color: #fb923c !important;
 }
 
 @media screen and (max-width: 976px) {

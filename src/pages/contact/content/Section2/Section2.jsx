@@ -109,7 +109,7 @@ const Section2 = ({ setOpen }) => {
               <span>
                 <h5 className="text-black-100">Phone Number</h5>
                 <h2 className="text-black-500 medium-text">
-                  08030816332 | 09092662911
+                08030427268 | 09092662911
                 </h2>
               </span>
             </div>

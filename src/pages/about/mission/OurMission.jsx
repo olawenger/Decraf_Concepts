@@ -4,7 +4,7 @@ import check from "../../../assets/check.png";
 import elect1 from "../../../assets/elect1.png";
 import elect2 from "../../../assets/elect2b.png";
 import elect3 from "../../../assets/elect2c.png";
-import cman from "../../../assets/cman.jpg";
+import cman from "../../../assets/4A.jpg";
 
 const OurMission = () => {
   return (
@@ -26,7 +26,7 @@ const OurMission = () => {
         </div>
         <div className="grid grid-cols-1 gap-3">
           <h1 className="large-text font-bold text-center lg:text-start">
-            Our Mission at Decraft NG Limited
+            Our Mission at Decraf NG Limited
           </h1>
           <p className=" text-center lg:text-start w-full ">
             Our mission is to create exceptional construction solutions that

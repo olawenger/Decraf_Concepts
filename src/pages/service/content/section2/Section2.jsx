@@ -1,7 +1,12 @@
 import React, { useState } from "react";
-import s1 from "../../../../assets/service_img1.png";
+import s1 from "../../../../assets/uncomplete.jpg";
 import s2 from "../../../../assets/service_img2.png";
-import s3 from "../../../../assets/service_img3.png";
+import s3 from "../../../../assets/pool.jpg";
+import s4 from "../../../../assets/kitchen.png";
+import s5 from "../../../../assets/office.jpg";
+import s6 from "../../../../assets/space.jpg";
+import s7 from "../../../../assets/house.jpg";
+import s8 from "../../../../assets/pool.jpg";
 import check from "../../../../assets/check.png";
 import "./Section2.scss";
 import ContactBtn from "../../../../components/ContactBtn/ContactBtn";
@@ -48,7 +53,7 @@ const serviceData = [
   },
   {
     title: "Laboratory Worktops/Shelves",
-    image: s1,
+    image: s4,
     items: [
       "Academic laboratories",
       "Residential kitchen worktops/wardrobes",
@@ -58,7 +63,7 @@ const serviceData = [
   },
   {
     title: "Interior Finishing",
-    image: s2,
+    image: s5,
     items: [
       "Office and residential furniture",
       "Vertical Venetian blinds",
@@ -67,7 +72,7 @@ const serviceData = [
   },
   {
     title: "Professional Services",
-    image: s3,
+    image: s6,
     items: [
       "Preliminary planning",
       "Design management",
@@ -86,7 +91,7 @@ const serviceData = [
   },
   {
     title: "Core Competencies",
-    image: s1,
+    image: s7,
     items: [
       "Project management services",
       "Construction management services",
@@ -101,7 +106,7 @@ const serviceData = [
   },
   {
     title: "Subsidiary: Food Safety and Quality Consultancy",
-    image: s2,
+    image: s4,
     items: [
       "Consultancy services in food safety and food quality systems",
       "Training programmes for small and medium-scale food processing outfits",
@@ -144,11 +149,11 @@ const ServiceSection = ({ title, image, items }) => {
 
       {/* Content that expands/collapses */}
       {isOpen && (
-        <div className="mt-4 flex items-center gap-7">
+        <div className="mt-4 flex items-center gap-7 ">
           <img
             src={image}
             alt={title}
-            className="border-img border-8 border-white-100 mb-4"
+            className="border-img border-8 hidden lg:block border-white-100 mb-4"
           />
           <div>
           {items.map((item, index) => (

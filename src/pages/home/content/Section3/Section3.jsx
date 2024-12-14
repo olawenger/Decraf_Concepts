@@ -11,7 +11,7 @@ const Section3 = () => {
         <div className='w-11/12 responsive text-center'>
         <div className='text-center '>
             <h4 className='medium-text text-black-100'>OUR SERVICES</h4>
-            <h1 className='large-text  w-full lg:w-6/12 mx-auto'>Explore Our Services decraft NG limited</h1>
+            <h1 className='large-text  w-full lg:w-6/12 mx-auto'>Explore Our Services decraf NG limited</h1>
         </div>
         <div className='grid grid-cols-1 gap-14 lg:grid-cols-3 py-10'>
             <div className='bg-white-100 p-5 flex justify-center items-center flex-col gap-5 img-box '>

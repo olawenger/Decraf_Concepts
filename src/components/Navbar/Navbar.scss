@@ -21,7 +21,7 @@
 }
 
 .bg-black {
-  background-color: rgba(27, 6, 101, 1) !important;
+  background-color: #1b0665 !important;
 }
 
 nav a::after {
@@ -38,7 +38,7 @@ nav a::after {
   
 
  nav a.active {
-    color: #fd741f;
+    color: #fb923c;
   }
 
   nav a:hover::after {
@@ -47,7 +47,7 @@ nav a::after {
 
   nav a.active::after {
     width: 100%;
-    background-color: #fd741f !important;
+    background-color: #fb923c !important;
   }
 
 
