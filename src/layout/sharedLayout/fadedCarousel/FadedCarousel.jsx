@@ -20,7 +20,7 @@ const FadedCarousel = () => {
       className="carousel-container"
      
     >
-    <div className="w-full h-full absolute top-0 left-0 bg-black-500 opacity-60 z-10"></div>
+    <div className="w-full h-full absolute top-0 left-0 bg-black-500 opacity-65 z-10"></div>
     
       <div
         className="background-image"
