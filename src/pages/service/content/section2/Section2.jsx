@@ -159,9 +159,9 @@ const ServiceSection = ({ title, image, items }) => {
           {items.map((item, index) => (
             <ServiceItem key={index} text={item} />
           ))}
-          <div className="flex justify-start mt-4">
+          {/* <div className="flex justify-start mt-4">
             <ContactBtn />
-          </div>
+          </div> */}
           </div>
           
         </div>
